@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+header {
+     background-color:rgb(0, 128, 192);
+    color:rgb(0, 0, 0);
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:rgb(0, 110, 172);
+    width:100px;
+    height: 89%;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	
+    text-align: center;
+    color: white; 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body style="background-color:rgb(50, 50, 50)">
+<header>
+<h1> Search for Movies </h1>
+</header>
+
+<nav>
+<a href="/webproject-techexercise/simpleFormInsert.html">Add Movie</a> <br>
+</nav>
+
+<section>
+	<h1>Movie Search</h1>
+	
+	<form action="SimpleFormSearch" method="POST">
+	
+		Movie Title: <input type="text" name="keyword"> <br /><br>
+		
+		<input type="submit" value="Search" />
+	</form>
+
+</section>
+
+</body>
+</html>
